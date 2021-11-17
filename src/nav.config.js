@@ -1,0 +1,41 @@
+let results={
+	title:'vue后台管理框架',
+	icon:'el-icon-s-home',
+	tab:[
+		{name:'乘客管理',path:'/','icon':'el-icon-s-custom',children:[
+			{name:'乘客管理',path:'/userManage',children:[
+				{name:'司机管理',path:'/'},
+				{name:'司机审核',path:'/'},
+				{name:'司机位置',path:'/'},
+			]}
+		]},
+		{name:'司机管理',path:'/','icon':'el-icon-truck',children:[
+			{name:'司机管理',path:'/'},
+			{name:'司机审核',path:'/'},
+			{name:'司机位置',path:'/'},
+		]},
+		{name:'其他配置',path:'/','icon':'el-icon-set-up',children:[
+			{name:'价格配置',path:'/'},
+			{name:'阶段配置',path:'/'},
+			{name:'公告管理',path:'/'},
+		]},
+		{name:'订单管理',path:'/','icon':'el-icon-tickets',children:[
+			{name:'订单查询',path:'/'},
+		]},
+		{name:'收支信息',path:'/','icon':'el-icon-s-check',children:[
+			{name:'收入查询',path:'/'},
+			{name:'收入排行',path:'/'}
+		]},
+		{name:'广告管理',path:'/','icon':'el-icon-picture',children:[
+			{name:'广告管理',path:'/'},
+		]},
+		{name:'设置',path:'/','icon':'el-icon-s-tools',children:[
+			{name:'管理员账号新增',path:'/'},
+			{name:'个人信息',path:'/'},
+		]},
+	]
+}
+export default {
+  results
+}
+
