@@ -1,24 +1,13 @@
-# dxmanage
-
-## Project setup
+# vue2.0+element的通用后台管理框架，已配置好，开箱即用，多种配色方案
+### 1、项目启动流程
 ```
-npm install
+  npm install
 ```
-
-### Compiles and hot-reloads for development
 ```
-npm run serve
+  npm run serve
 ```
-
-### Compiles and minifies for production
 ```
-npm run build
+  npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 预览如图：
+![Image text](https://github.com/Ningstyle/vue2build/blob/master/src/3.png)
